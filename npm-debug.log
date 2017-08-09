@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\Ruthford\\Dropbox\\Personales\\Proyectos\\basico\\publicar\\platzom',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Ruthford\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle platzom@0.1.0~prepublish: platzom@0.1.0
+11 silly lifecycle platzom@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Ruthford\\AppData\\Roaming\\npm-cache\\platzom\\0.1.0\\package.tgz',
+12 verbose tar pack   'C:\\Users\\Ruthford\\Dropbox\\Personales\\Proyectos\\basico\\publicar\\platzom' ]
+13 verbose tarball C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package.tgz
+14 verbose folder C:\Users\Ruthford\Dropbox\Personales\Proyectos\basico\publicar\platzom
+15 verbose addLocalTarball adding from inside cache C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\Ruthford\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd platzom@0.1.0
+18 verbose afterAdd C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Ruthford\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package\package.json written
+21 silly publish { name: 'platzom',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'Traductor de idioma platzom',
+21 silly publish   main: 'dist/src/platzom.js',
+21 silly publish   scripts: { build: 'babel src/platzom.js -d dist', test: 'mocha' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/wilfesabe/platzom.git' },
+21 silly publish   keywords: [ 'platzom', 'platzi', 'fundamentos', 'javascripts', 'js' ],
+21 silly publish   author:
+21 silly publish    { name: 'Wilfrido Salgado',
+21 silly publish      email: 'wilfesabe@gmail.com',
+21 silly publish      url: 'https://twitter.com/wilfesabe' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/wilfesabe/platzom/issues' },
+21 silly publish   homepage: 'https://github.com/wilfesabe/platzom#readme',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.24.1',
+21 silly publish      'babel-preset-env': '^1.6.0',
+21 silly publish      chai: '^4.1.1',
+21 silly publish      mocha: '^3.5.0' },
+21 silly publish   readme: '#Platzom\r\n\r\nPlatzom es un idioma inventado para el [curso de fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com)\r\n\r\n## Descripcion del idioma\r\n\r\n- Si la palabra termina con "ar", se le quitan esas dos letras\r\n- Si la palabra inicia con Z, se le añade "pe" al final\r\n- Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio\r\n- Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra pero intercalando letras mayúsculas y minúsculas\r\n\r\n\r\n## Instalacion\r\n```\r\nnpm install platzom\r\n```\r\n\r\n## Uso\r\n```\r\nimport platzom from \'platzom\'\r\n\r\nplatzom("Programar") // Program\r\nplatzom("Zorro") // Zorrope\r\nplatzom("Zarpar") // Zarppe\r\nplatzom("abecedario") // abece-dario\r\nplatzom("sometemos") // SoMeTeMoS\r\n\r\n```\r\n\r\n## Creditos\r\n-[Wilfrido Salgado](https://twitter.com/@wilfesabe)\r\n\r\n## Licencia\r\n[MIT](https://opensource.org/licenses/MIT)',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'e1322ef9e0e311315bbd5fd7dea35c87b55fed4c',
+21 silly publish   _id: 'platzom@0.1.0',
+21 silly publish   _shasum: '21bac9ce0edebf102cedb8b56eb025e57bbc1c00',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name platzom
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'platzom',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'platzom',
+26 silly mapToRegistry   name: 'platzom',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/platzom
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Ruthford\AppData\Roaming\npm-cache\platzom\0.1.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/platzom
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 13:35:39
+33 verbose request using bearer token for auth
+34 verbose request id 11e70f7fb22bc725
+35 http request PUT https://registry.npmjs.org/platzom
+36 http 403 https://registry.npmjs.org/platzom
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '101',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 09 Aug 2017 18:35:40 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-atl6230-ATL',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1502303740.886635,VS0,VE340',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating C:\Users\Ruthford\AppData\Roaming\npm-cache\registry.npmjs.org\platzom on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "platzom". Are you logged in as the correct user? : platzom
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid platzom
+43 verbose cwd C:\Users\Ruthford\Dropbox\Personales\Proyectos\basico\publicar\platzom
+44 error Windows_NT 10.0.14393
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.11.0
+47 error npm  v3.10.10
+48 error code E403
+49 error you do not have permission to publish "platzom". Are you logged in as the correct user? : platzom
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
