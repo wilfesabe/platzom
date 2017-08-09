@@ -1,0 +1,29 @@
+
+
+
+npm login
+npm init
+npm install --save-dev babel-cli
+//crear el erchivo de configuracion .babelrc
+{
+  "presets": ["env"]
+}
+npm install babel-preset-env --save-dev
+//esto ejecuta babel sobre el codigo
+//El build ya debe estar configurado en package.json  "build": "babel src/platzom.js -d dist"
+npm run build
+
+//modificar el "main" del archivo package.json  "main": "dist/src/platzom.js",
+
+//Pruebas de la libreria
+npm install --save-dev mocha chai
+
+
+--EN GIT
+
+git init
+git remote add origin git@github.com:wilfesabe/platzom.git
+git add .
+git status
+git commit -m "Initial commit"
+git push origin master --tags
